@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
+#part-panel {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: rgba(16, 16, 30, 0.88);
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  color: #eee;
+  pointer-events: none;
+  z-index: 10;
+  box-shadow: 0 2px 8px #0006;
+  transition: opacity 0.3s;
+}
